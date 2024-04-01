@@ -1,0 +1,30 @@
+##############################################
+
+# Manoj M Wagle (USydney; CMRI)
+
+##############################################
+
+name: Hydra_env
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - anndata
+  - pytorch 
+  - torchvision 
+  - torchaudio 
+  - pytorch-cuda=12.1 # Adjust your CUDA version
+  - captum
+  - h5py
+  - hdf5
+  - libpng
+  - libtiff
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - scanpy
+  - tqdm
